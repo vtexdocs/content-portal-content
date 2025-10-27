@@ -16,7 +16,18 @@ trackSlugEN: known-issues-article
 
 [Known Issues](https://help.vtex.com/known-issues) inform users about identified problems in the VTEX platform or products, their current status, and potential solutions (workarounds) or permanent fixes. We constantly update these articles so you can anticipate potential issues and know that our team is aware of them.
 
-In this article, you’ll see the difference between Known Issues, other types of articles, and Product Improvements, as well as an overview of a Known Issue article.
+This guide covers the complete Known Issues workflow, including the differences between Known Issues and other article types, how to create them, and best practices for writing effective Known Issues documentation.
+
+## Publication workflow
+
+Each time someone from VTEX Product Support creates or updates a public Known Issue on Zendesk, an automated integration workflow is triggered:
+
+1. **Creation/Update in Zendesk**: Product Support team creates or updates a Known Issue
+2. **Automatic translation**: Content is automatically translated to Spanish and Portuguese using DeepL API
+3. **Publication**: Translated content is published or updated on Help Center
+4. **Notification**: A Slack thread is created in `#known-issues-feed` for status tracking
+
+> ℹ️ Only the VTEX Product Support team can create Known Issues. All Known Issues are created in Zendesk, not directly in the repository.
 
 ## Differences between Known Issues and Troubleshooting guides
 
@@ -59,9 +70,103 @@ To better illustrate the difference between them, consider the following:
 | 7 - Simulation | Section to describe what steps are needed to reproduce the behavior. |
 | 8 - Workaround | Section to describe the workaround for the issue, if there’s any. |
 
+## Creating a Known Issue
+
+> ⚠️ Only the VTEX Product Support team can create Known Issues.
+
+To create a Known Issue in Zendesk:
+
+1. Click on **Product > KI > Register a New Known Issue** in Zendesk
+2. For public Known Issues (available on Help Center), select **Yes** in the **Is public?** field
+3. Fill in the template with detailed information (see [Template structure](#template-structure))
+
+### Linking tickets to Known Issues
+
+Tickets linked to a Known Issue must have:
+
+- **Type** set as `Incident`
+- **Linked problem** field with the Known Issue ID
+- **Incident Type** as `Regular`
+
+## Template structure
+
+When creating a Known Issue in Zendesk, use this template:
+
+```markdown
+[KI] Insert title 
+
+## Summary
+Describe the bug concisely.
+
+
+## Simulation
+Describe here what steps are needed to reproduce this behavior.
+
+
+## Workaround
+Is there a workaround for this bug? If yes, describe it here.
+
+
+PS.: Add images and attachments to reinforce your description
+
+------------------------------------------------------------------------------
+
+## Internal Notes
+
+Include any additional information that should not be public but could be relevant for VTEX staff.
+Add here images and attachments to reinforce your description.
+```
+
+> ❌ Don't change or remove the template's section titles and formatting. The integration relies on this structure to properly process and publish the Known Issue.
+
+## Best practices (Dos)
+
+When creating a Known Issue, follow these best practices:
+
+✅ **Language and quality**
+- Always write the Known Issue in English.
+- Run your text through a spell-checking tool (e.g., [Grammarly](https://www.grammarly.com/)).
+- Use proper [markdown syntax](https://www.markdownguide.org/cheat-sheet/).
+- Test the final result using tools like [Markdown Live Preview](https://markdownlivepreview.com/).
+
+✅ **Content completeness**
+- Write detailed descriptions for all Known Issue fields.
+- Provide clear, step-by-step simulation instructions.
+- Include workarounds when available, even if partial.
+- Add relevant images and attachments to support your description.
+
+✅ **Visibility and transparency**
+- Make the Known Issue public whenever possible.
+- Check `#known-issues-feed` on Slack after creating or updating to verify publication status.
+
+✅ **Internal documentation**
+- Use the **Internal Notes** section (below the horizontal bar) for internal comments.
+- Add context that helps VTEX staff but should not be public.
+
+## What to avoid (Don'ts)
+
+To ensure proper integration and publication, avoid these common mistakes:
+
+❌ **Template structure**
+- Don't change or remove section titles and formatting.
+- Don't remove the horizontal bar before the **Internal Notes** section.
+- Don't delete **[KI]** from the title.
+- Don't leave any Known Issue field blank (even if there's no Simulation or Workaround, add N/A or an explanation).
+
+❌ **Security and privacy**
+- Don't write internal comments, confidential information, or client screenshots outside the **Internal Notes** section.
+- Don't use sensitive data from VTEX clients' stores.
+
 ## Examples of Known Issues
 
 - [Cart does not update in FastStore if external request is made to update orderForm](https://help.vtex.com/known-issues/cart-does-not-update-in-faststore-if-external-request-is-made-to-update-orderform--7ef1GxxapbH2XKKf7HBuAM)
 - [Stuck transactions after Risk Rejection](https://help.vtex.com/known-issues/stuck-transactions-after-risk-rejection--4LKwXp4P9IEkUh02vNZKiA)
 - [Benefits and taxes are not applied to services](https://help.vtex.com/known-issues/benefits-and-taxes-are-not-applied-to-services--4u12zyfc387daNQamFohA2)
 - [FetchMore brings repeated values between the to and from](https://help.vtex.com/known-issues/fetchmore-bringing-repeated-values-between-the-to-and-from--1Vx0YekKCDaf8t6hocU1iv)
+
+## Additional resources
+
+- [Known Issues Help Center](https://help.vtex.com/known-issues)
+- [Markdown syntax guide](https://www.markdownguide.org/cheat-sheet/)
+- [Grammarly spell checker](https://www.grammarly.com/)
+- [Markdown Live Preview](https://markdownlivepreview.com/)
