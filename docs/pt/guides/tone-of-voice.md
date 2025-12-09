@@ -16,7 +16,7 @@ trackSlugPT: tom-e-voz
 
 A voz da VTEX representa os **principais elementos da nossa marca** e a forma como nos comunicamos. Ela garante que a nossa escrita reflita **a personalidade e os padrões de qualidade da VTEX** em todos os canais.
 
-Ao se comunicar com nosso público, tenha em mente os seguintes princípios:
+Ao se comunicar com nosso público, tenha em mente os seguintes princípios abaixo:
 
 ✅ Encontre o equilíbrio entre ousadia, credibilidade e otimismo para alcançar o tom certo.  
 ✅ Saiba sempre com quem está falando.  
