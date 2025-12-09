@@ -28,7 +28,7 @@ Escribe en mayúscula todos los sustantivos propios y marcas registradas, inclui
 
 | Correcto ✅ | Incorrecto ❌ |
 | :---- | :---- |
-| <ul><li>Black Friday tendrá lugar el 24 de noviembre.</li><li>Intelligent Search determina la relevancia de cada producto.</li><li>Ponte en contacto con el equipo de Soporte.</li><li>Exportar a Excel</li><li>Instalar Intelligent Search</li><li>VTEX App Store</li></ul> | <ul><li>Black friday tendrá lugar el 24 de noviembre.</li><li>Intelligent Search determina la relevancia de cada producto.</li><li>Por favor contacte al equipo de soporte.</li><li>exportar a excel</li><li>Instalar intelligent search</li><li>VTEX app store</li></ul> |
+| <ul><li>Black Friday tendrá lugar el 24 de noviembre.</li><li>busqueda inteligente determina la relevancia de cada producto.</li><li>Ponte en contacto con el equipo de Soporte.</li><li>Exportar a Excel</li><li>Instalar Intelligent Search</li><li>VTEX App Store</li></ul> | <ul><li>Black friday tendrá lugar el 24 de noviembre.</li><li>Intelligent Search determina la relevancia de cada producto.</li><li>Por favor contacte al equipo de soporte.</li><li>exportar a excel</li><li>Instalar intelligent search</li><li>VTEX app store</li></ul> |
 
 Respeta las mayúsculas originales de los nombres de las empresas como figuran en sus materiales institucionales (excepto en el logotipo). Esto incluye el uso de todas las letras en mayúscula, una mayúscula intermedia o todas en minúscula.
 
