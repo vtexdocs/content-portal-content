@@ -8,10 +8,10 @@ publishedAt: 2025-11-25T19:24:22.388Z
 firstPublishedAt: 2025-11-25T19:24:22.388Z
 contentType: trackArticle
 productTeam: Education
-slugEN: problemas-conocidos
+slugES: problemas-conocidos
 locale: es
 trackId: 5PxyAgZrtiYlaYZBTlhJ2A
-trackSlugEN: problemas-conocidos
+trackSlugES: problemas-conocidos
 ---
 
 Los [Problemas conocidos](https://help.vtex.com/known-issues) informan a los usuarios sobre problemas identificados en la plataforma o productos VTEX, su estado actual y posibles soluciones (alternativas) o correcciones permanentes. Actualizamos constantemente estos artículos para que puedas anticipar posibles inconvenientes y saber que nuestro equipo está al tanto de ellos.
