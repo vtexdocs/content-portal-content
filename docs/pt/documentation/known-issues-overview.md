@@ -1,73 +1,73 @@
 ---
 title: 'Visão geral de problemas conhecidos'
-id: edu0007-pt
-status: PUBLISHED
-createdAt: 2025-11-25T19:24:22.388Z
-updatedAt: 2025-11-25T11:55:00.388Z
-publishedAt: 2025-11-25T19:24:22.388Z
-firstPublishedAt: 2025-11-25T19:24:22.388Z
+id: edu0007
+status: PUBLICADO
+createdAt: 2025-02-06T15:00:00.388Z
+updatedAt: 2026-01-23T15:00:00.388Z
+publishedAt: 2025-02-06T15:00:00.388Z
+firstPublishedAt: 2025-02-06T15:00:00.388Z
 contentType: trackArticle
-productTeam: Education
-slugPT: visao-geral-de-problemas-conhecidos
+productTeam: Educação
+slugEN: artigo-problemas-conhecidos
 locale: pt
 trackId: 5PxyAgZrtiYlaYZBTlhJ2A
-trackSlugPT: visao-geral-de-problemas-conhecidos
+trackSlugEN: artigo-problemas-conhecidos
 ---
 
-[Problemas conhecidos](https://help.vtex.com/known-issues) informam os usuários sobre problemas identificados na plataforma ou nos produtos da VTEX, seu status atual e possíveis soluções provisórias (workarounds) ou correções permanentes. Atualizamos constantemente esses artigos para que você possa antecipar possíveis problemas e saber que nossa equipe está atenta a eles.
+Os artigos de [problemas conhecidos](https://help.vtex.com/known-issues) informam os usuários sobre problemas identificados na plataforma ou nos produtos VTEX, seu status atual e soluções alternativas (workarounds) ou correções definitivas. Atualizamos constantemente estes artigos para que você possa antecipar problemas potenciais e saiba que nossa equipe está ciente deles.
 
-Neste artigo, apresentamos uma visão geral sobre a estrutura dos problemas conhecidos, diferenciando-os de outros tipos de conteúdo e de melhorias de produto.
+Neste artigo, você verá a diferença entre artigos de problemas conhecidos, outros tipos de artigos e melhorias de produto, além de uma visão geral de um artigo de Problema Conhecido.
 
-## Diferenças entre problemas conhecidos e e outros artigos
+## Diferenças entre artigos de problemas conhecidos e guias de troubleshooting
 
-Ao navegar pela documentação da VTEX, é importante entender as diferenças entre os tipos de artigo e suas finalidades específicas. Por exemplo, os artigos sobre problemas conhecidos alertam os usuários sobre problemas identificados na plataforma, indicando atualizações, soluções provisórias ou definitivas. Por outro lado, os guias de solução de problemas oferecem instruções detalhadas para corrigir erros específicos.
+Ao navegar na documentação VTEX, é importante entender as diferenças entre os tipos de artigos, que têm propósitos específicos. Por exemplo, artigos de problemas conhecidos alertam os usuários sobre problemas identificados na plataforma, fornecendo atualizações, soluções alternativas ou soluções. Em contraste, guias de troubleshooting oferecem passo a passo para corrigir erros específicos.
 
-A tabela abaixo compara os artigos de problemas conhecidos com outros tipos de artigo:
+A seguir, veja o objetivo, foco do conteúdo e audiência entre artigos de problemas conhecidos e outros tipos de artigos:
 
-| **Tema** | **Problema conhecido** | **Solução de problemas** |
-| --------- | --------------- | ------------------- |
-| **Objetivo** | Informar os usuários sobre problemas conhecidos na plataforma e nos produtos, bem como suas soluções provisórias (workarounds) ou definitivas. | Oferecer instruções detalhadas para resolver problemas ou erros específicos. |
-| **Foco do conteúdo** | Descrição do problema, impacto, solução provisória (workaround) ou definitiva e atualizações de status. | Etapas de resolução de problemas, mensagens de erro e possíveis causas. |
-| **Público-alvo** | Todos os usuários que possam ser afetados pelo problema conhecido. | Usuários com problemas ou erros específicos. |
-| **Exemplo** | [Promoções e impostos não são aplicados a serviços](https://help.vtex.com/known-issues/benefits-and-taxes-are-not-applied-to-services--4u12zyfc387daNQamFohA2) | [O Site Editor da minha loja não está funcionando](https://help.vtex.com/tutorial/my-stores-site-editor-is-not-working--3A6Ois91zEZ8zpKJp1wsP2) |
+| **Assunto**           | **Problema conhecido**                                                                                                                                          | **Troubleshooting**                                                                                                                             |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Objetivo**          | Informar os usuários sobre problemas conhecidos na plataforma e produtos, bem como suas soluções alternativas ou soluções.                      | Fornecer instruções passo a passo para resolver problemas ou erros específicos.                                                 |
+| **Foco do conteúdo**  | Descrição do problema, impacto, solução alternativa ou solução, e atualizações de status.                                                       | Passos para troubleshooting, mensagens de erro e causas potenciais.                                                             |
+| **Audiência**         | Todos os usuários que podem ser afetados pelo problema conhecido.                                                                               | Usuários que estão enfrentando problemas ou erros específicos.                                                                  |
+| **Exemplo de artigo** | [Benefícios e impostos não são aplicados a serviços](https://help.vtex.com/known-issues/benefits-and-taxes-are-not-applied-to-services--4u12zyfc387daNQamFohA2) | [O Site Editor da minha loja não está funcionando](https://help.vtex.com/tutorial/my-stores-site-editor-is-not-working--3A6Ois91zEZ8zpKJp1wsP2) |
 
-## Diretrizes para identificar problemas conhecidos ou melhorias no produto
+## Diretrizes para identificar problemas conhecidos ou melhorias de produto
 
-Tanto os problemas conhecidos quanto as melhorias do produto têm como objetivo aprimorar o produto. No entanto, enquanto os artigos de problemas conhecidos focam em resolver problemas existentes, as melhorias do produto visam adicionar novas funcionalidades ou aprimorar as já existentes.
+Tanto problemas conhecidos quanto melhorias de produto têm a intenção de aprimorar o produto. No entanto, enquanto os problemas conhecidos focam na resolução de problemas existentes, as melhorias de produto visam adicionar novas funcionalidades ou aprimorar as já existentes.
 
-Para ilustrar melhor a diferença entre eles, veja a tabela abaixo:
+Para melhor ilustrar a diferença entre eles, considere o seguinte:
 
-| **Tema** | **Problema conhecido** | **Melhoria de produto** |
-| --------- | --------------- | ----------------------- |
-| **Definição** | Um problema ou bug identificado no produto ou na plataforma. | Uma alteração projetada para aprimorar o produto ou questões de funcionalidade, usabilidade ou desempenho da plataforma. |
-| **Foco** | Corrigir problemas existentes. | Adicionar novas funcionalidades ou melhorar as existentes. |
-| **Impacto para o usuário** | Impacto negativo na experiência do usuário ou na funcionalidade. | Impacto positivo na experiência do usuário ou na funcionalidade. |
-| **Exemplo** | Um botão em uma página não funciona como esperado. | Adicionar uma nova funcionalidade para filtrar os resultados de busca. |
+| **Assunto**            | **Problema conhecido**                                                        | **Melhoria de produto**                                                                                                        |
+| ---------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Definição**          | Um problema ou bug identificado no produto ou plataforma.     | Uma alteração proposta para aprimorar a funcionalidade, usabilidade ou desempenho do produto ou da plataforma. |
+| **Foco**               | Corrigir problemas existentes.                                | Adicionar novas funcionalidades ou melhorar as existentes.                                                     |
+| **Impacto no usuário** | Impacto negativo na experiência ou funcionalidade do usuário. | Impacto positivo na experiência ou funcionalidade do usuário.                                                  |
+| \`**Exemplo**          | Um botão na página não funciona como esperado.                | Adicionar uma nova funcionalidade para filtrar resultados de busca.                                            |
 
-## Estrutura de problemas conhecidos
+## Estrutura do artigo de problema conhecido
 
-![known-issue-article-overview](https://github.com/vtexdocs/content-portal-content/blob/main/images/pt/known-issue-article-overview.png?raw=true)
+![visão geral do artigo de problema conhecido](https://github.com/vtexdocs/content-portal-content/blob/main/images/en/known-issue-article-overview.png?raw=true)
 
-| **Tema do artigo** | **Descrição** |
-| ----------------- | --------------- |
-| 1 - Título | Título do artigo que descreve o problema. |
-| 2 - Nome do produto | Tag para o produto afetado pelo problema. |
-| 3 - Zendesk ID | Identificador único do problema conhecido no Zendesk. |
-| 4 - Status | Tag que descreve o status do problema conhecido. Estes são os status disponíveis: <ol><li>`Corrigido`: o problema foi resolvido e uma correção foi aplicada.</li><li>`Backlog`: o problema foi identificado, mas não há previsão para uma correção no momento. Ele pode ser priorizado e programado para uma versão futura.</li><li>`Agendado`: o problema foi priorizado e agendado para correção.</li><li>`Não resolvido`: o problema não será corrigido, provavelmente devido a baixo impacto, restrições técnicas ou outros motivos.</li></ol> |
-| 5 - Publicado em | Data em que o artigo foi criado. |
-| 6 - Última atualização em | Data da última atualização do artigo. |
-| 7 - Sumário | Seção para descrever o bug. |
-| 8 - Simulação | Seção para descrever quais etapas são necessárias para reproduzir o comportamento. |
-| 9 - Workaround | Seção para descrever o workaround para o problema, caso exista. |
+| **Assunto do artigo**                                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 - Título                                              | Título do artigo que descreve o problema.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 2 - Nome do produto                                     | Marca para o produto afetado pelo problema.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 3 - Zendesk ID                                          | Identificador único do problema conhecido no Zendesk.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 4 - Status                                              | Tag descrevendo o status do problema conhecido. Estes são os status disponíveis: <ol><li>`Fixed`: o problema foi resolvido e uma correção foi implementada.</li><li>`Backlog`: o problema foi identificado, mas não está programado para ser corrigido. Ele pode ser priorizado e corrigido para um lançamento futuro.</li><li>`Agendado`: o problema foi priorizado e programado para correção.</li><li>`No fix`: o problema não será corrigido, provavelmente por seu baixo impacto, restrições técnicas ou outros motivos.</li></ol> |
+| 5 - Publicado em                                        | Data em que o artigo foi criado.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 6 - Última atualização em                               | Data da última atualização do artigo.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 7 - Resumo                                              | Seção para descrever o problema.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 8 - Simulação                                           | Seção para descrever as etapas necessárias para reproduzir o comportamento.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| 9 - Solução alternativa (workaround) | Seção para descrever a solução alternativa para o problema, se houver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 ## Exemplos de problemas conhecidos
 
-- [O carrinho não é atualizado no FastStore se for feita uma solicitação externa para atualizar o formulário de pedido](https://help.vtex.com/known-issues/cart-does-not-update-in-faststore-if-external-request-is-made-to-update-orderform--7ef1GxxapbH2XKKf7HBuAM)
-- [Transações bloqueadas após a rejeição do risco](https://help.vtex.com/known-issues/stuck-transactions-after-risk-rejection--4LKwXp4P9IEkUh02vNZKiA)
-- [Promoções e impostos não são aplicados a serviços](https://help.vtex.com/known-issues/benefits-and-taxes-are-not-applied-to-services--4u12zyfc387daNQamFohA2)
-- [FetchMore traz valores repetidos entre o to e o from](https://help.vtex.com/known-issues/fetchmore-bringing-repeated-values-between-the-to-and-from--1Vx0YekKCDaf8t6hocU1iv)
+- [O carrinho não atualiza no FastStore se uma requisição externa for feita para atualizar o orderForm](https://help.vtex.com/known-issues/cart-does-not-update-in-faststore-if-external-request-is-made-to-update-orderform--7ef1GxxapbH2XKKf7HBuAM)
+- [Transações travadas após rejeição de risco](https://help.vtex.com/known-issues/stuck-transactions-after-risk-rejection--4LKwXp4P9IEkUh02vNZKiA)
+- [Benefícios e impostos não são aplicados a serviços](https://help.vtex.com/known-issues/benefits-and-taxes-are-not-applied-to-services--4u12zyfc387daNQamFohA2)
+- [FetchMore traz valores repetidos entre os parâmetros "to" e "from"](https://help.vtex.com/known-issues/fetchmore-bringing-repeated-values-between-the-to-and-from--1Vx0YekKCDaf8t6hocU1iv)
 
 ## Recursos relacionados
 
-- [Repositório de problemas conhecidos no GitHub](https://github.com/vtexdocs/known-issues/)
-- [Integração de problemas conhecidos (Google Docs) (Interno)](https://docs.google.com/document/d/11Qy3cpSNZwyqv0fLhQb1LEw196rpMyuYMF0Zon_SIrU/edit)
+- [Repositório de Problemas Conhecidos no GitHub](https://github.com/vtexdocs/known-issues/)
+- [Integração de Problemas Conhecidos (Google Docs) (Interno)](https://docs.google.com/document/d/11Qy3cpSNZwyqv0fLhQb1LEw196rpMyuYMF0Zon_SIrU/edit)
