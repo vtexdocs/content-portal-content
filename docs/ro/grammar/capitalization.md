@@ -129,6 +129,44 @@ Prima literă dintr-o listă numerotată sau cu elemente trebuie să fie întotd
 | :---- | :---- |
 | Search Console oferă acces ușor și gratuit la următoarele informații: <ol><li>Termeni de căutare principali</li><li>URL-uri principale vizualizate</li></ol> | Search Console oferă acces ușor și gratuit la următoarele informații: <ul><li>termeni de căutare principali</li><li>URL-uri principale vizualizate</li></ul> |
 
+## Diacritice
+
+Româna folosește cinci diacritice: **ă**, **â**, **î**, **ș** și **ț**. În conținutul VTEX redactat în română, folosiți întotdeauna diacriticele corecte. Omiterea lor afectează lizibilitatea și poate schimba sensul cuvintelor.
+
+| Corect ✅ | Incorect ❌ |
+| :---- | :---- |
+| <ul><li>țară</li><li>factură</li><li>înregistrare</li><li>ștergere</li><li>coș</li></ul> | <ul><li>tara</li><li>factura</li><li>inregistrare</li><li>stergere</li><li>cos</li></ul> |
+
+### Când se folosesc
+
+Folosiți diacriticele în toate textele destinate utilizatorilor români: interfață, mesaje, documentație, anunțuri și e-mailuri.
+
+| Corect ✅ | Incorect ❌ |
+| :---- | :---- |
+| <ul><li>Adăugare produs</li><li>Politică de confidențialitate</li><li>Comanda a fost procesată.</li></ul> | <ul><li>Adaugare produs</li><li>Politica de confidentialitate</li><li>Comanda a fost procesata.</li></ul> |
+
+### Când nu se folosesc
+
+Nu aplicați diacritice acolo unde ortografia românească nu se aplică:
+
+| Context | Exemplu |
+| :---- | :---- |
+| Nume de produse și mărci VTEX | Intelligent Search, FastStore |
+| Identificatori tehnici | `productId`, `GET /api/catalog/pvt/product/{productId}` |
+| URL-uri, adrese de e-mail și cod | `https://help.vtex.com`, `joao.silva@email.com` |
+| Tag-uri de locale | `ro-RO`, `en-US` |
+| Valori introduse de utilizatori | Păstrați ortografia originală a numelui sau adresei |
+
+### Greșeli frecvente
+
+| Tip | Corect ✅ | Incorect ❌ |
+| :---- | :---- | :---- |
+| **ș** vs **s** | <ul><li>ștergere</li><li>paș</li></ul> | <ul><li>stergere</li><li>pas</li></ul> |
+| **ț** vs **t** | <ul><li>funcționalitate</li><li>conținut</li></ul> | <ul><li>functionalitate</li><li>continut</li></ul> |
+| **î** vs **i** | <ul><li>începe</li><li>închide</li></ul> | <ul><li>incepe</li><li>inchide</li></ul> |
+| **â** vs **a** | <ul><li>română</li><li>factură</li></ul> | <ul><li>romana</li><li>factura</li></ul> |
+| **ă** vs **a** | <ul><li>adăugare</li><li>setări</li></ul> | <ul><li>adaugare</li><li>setari</li></ul> |
+
 #### Listă numerotată
 
 | Corect ✅ | Incorect ❌ |

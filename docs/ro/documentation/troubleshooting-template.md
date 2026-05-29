@@ -136,6 +136,68 @@ To solve this problem, there are several solutions you can consider:
 
 </details>
 
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți exemple de articole de troubleshooting adaptate pentru publicul român.
+
+<details>
+<summary><b>Exemplu – Șablon 1 (română)</b></summary>
+
+```md
+# Comanda nu apare în listă
+
+Product tags: Comenzi, Catalog
+
+Keywords: comandă negăsită, SKU, număr comandă, marketplace
+
+Dacă o comandă plasată pe **28.05.2026** nu apare în **Comenzi > Toate comenzile**, cauza poate fi un SKU inactiv, un filtru aplicat sau o sincronizare incompletă cu marketplace-ul.
+
+## Soluție
+
+Pentru a identifica semnificația fiecărei mesaje de eroare și acțiunea necesară, consultați tabelul de mai jos:
+
+| Tip de eroare sau mesaj | Semnificație | Acțiune necesară |
+| :--- | :--- | :--- |
+| `Comanda nu a fost găsită` | Comanda nu există în VTEX sau ID-ul este incorect. | Verificați ID-ul comenzii și filtrele de dată (format **DD.MM.AAAA**). |
+| `SKU indisponibil` | Produsul a fost eliminat din catalog sau este inactiv. | Reactivați SKU-ul sau contactați [Suportul VTEX](https://help.vtex.com/support). |
+```
+
+</details>
+
+<details>
+<summary><b>Exemplu – Șablon 2 (română)</b></summary>
+
+```md
+# Site Editor nu se deschide
+
+Product tags: Storefront, Site Editor
+
+Keywords: site editor, pagină albă, storefront, eroare încărcare
+
+Site Editor nu se încarcă după autentificare. Ecranul rămâne gol sau afișează mesajul **A apărut o eroare. Încercați din nou.**
+
+## Soluție
+
+Pentru a rezolva această problemă, luați în considerare următoarele soluții:
+
+- [Verificare permisiuni](#verificare-permisiuni): contul nu are acces la **Storefront > Site Editor**.
+- [Ștergere cache](#stergere-cache): datele din browser blochează încărcarea editorului.
+
+### Verificare permisiuni
+
+1. În Admin VTEX, accesați **Contul > Permisiuni de acces**.
+2. Confirmați că profilul include permisiunea **Site Editor Admin**.
+3. Autentificați-vă din nou și reîncercați.
+
+### Ștergere cache
+
+1. Ștergeți cache-ul și cookie-urile browserului.
+2. Accesați din nou **Storefront > Site Editor**.
+3. Dacă problema persistă, contactați Suportul VTEX, menționând ora erorii (ex.: **14:30**, fus **UTC+2**).
+```
+
+</details>
+
 ## Examples of troubleshooting articles
 
 - [Help Center](https://help.vtex.com/category/troubleshooting--39pDkp8qxSll6mGj0tWViz)

@@ -60,3 +60,36 @@ To learn more <about the feature/module/product>, see <the article/track>.
 </details>
 
 > Find examples of announcement articles on the [Help Center](https://help.vtex.com/en/announcements).
+
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți un exemplu de anunț adaptat pentru publicul român. Pentru formate de dată, monedă și locale, consultați [Formate de date](https://contentguide.vtex.com/ro/docs/interface-copy/data-formats).
+
+<details>
+<summary><b>Exemplu de anunț (română)</b></summary>
+
+```md
+# Intelligent Search: relevanță îmbunătățită pentru rezultatele căutării
+
+Am creat această funcționalitate pentru a îmbunătăți relevanța produselor afișate în căutare, astfel încât să puteți crește conversia în magazin. Este disponibilă în **Disponibilitate generală**, pentru toți utilizatorii din **România** și **EMEA**, începând cu **15.03.2026**.
+
+## Ce s-a schimbat?
+
+Anterior, trebuia să ajustați manual ponderile din fiecare regulă de relevanță. Acum, aveți un ecran dedicat **Reguli de relevanță** unde puteți configura și previzualiza rezultatele în timp real.
+
+## De ce am făcut această schimbare?
+
+Pentru a vă facilita optimizarea căutării, am dezvoltat un flux consolidat de configurare. Funcționalitatea este disponibilă în modulul **Intelligent Search**. Beneficiile principale sunt:
+
+- Configurare mai rapidă a regulilor de relevanță
+- Previzualizare a rezultatelor înainte de publicare
+- Rapoarte de performanță cu valori în **RON** (ex.: creștere medie de **12,5%** a ratei de conversie)
+
+## Ce trebuie făcut?
+
+Pentru a utiliza această resursă, accesați **Storefront > Intelligent Search > Reguli de relevanță** și revizuiți setările existente.
+
+Pentru a afla mai multe despre funcționalitate, consultați ghidul [Configurarea Intelligent Search](https://help.vtex.com/).
+```
+
+</details>

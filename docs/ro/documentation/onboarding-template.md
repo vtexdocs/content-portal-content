@@ -69,3 +69,54 @@ Ex.: To work with {technology name}, you should be familiar with the following t
 
 - [FastStore - Overview](https://developers.vtex.com/docs/guides/faststore)  
 - [Store Framework - Overview](https://developers.vtex.com/docs/guides/store-framework)
+
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți un exemplu de articol de onboarding adaptat pentru publicul român.
+
+<details>
+<summary><b>Exemplu de onboarding (română)</b></summary>
+
+```md
+# FastStore
+
+FastStore este un framework headless pentru vitrine VTEX. Pentru a lucra cu FastStore, ar trebui să cunoașteți următoarele tehnologii:
+
+- [React](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Arhitectura FastStore
+
+[Adăugați aici o diagramă care ilustrează arhitectura și o explicație scurtă.]
+
+## Quickstart
+
+Urmați pașii de mai jos pentru a configura un proiect local. Timp estimat: **45 minute**.
+
+### 1. Setări inițiale
+
+1. Instalați **Node.js** versiunea **18** sau mai recentă.
+2. Instalați **VTEX IO CLI**.
+3. Verificați că aveți acces la un cont VTEX cu workspace de dezvoltare.
+
+### 2. Configurarea proiectului
+
+1. Executați `vtex use {numeWorkspace}` în terminal.
+2. Clonați repository-ul starter FastStore.
+3. Rulați `yarn install` și apoi `yarn dev`.
+4. Accesați vitrina la `http://localhost:3000`.
+
+### 3. Personalizarea vitrinei
+
+1. Editați componentele din directorul `src/components`.
+2. Configurați moneda implicită la **RON** și locale-ul la **ro-RO**.
+3. Testați afișarea unui produs cu preț **299,90 RON**.
+
+## Pași următori
+
+- [Configurarea checkout-ului pentru România](https://developers.vtex.com/docs/guides)
+- [Publicarea vitrinei în producție](https://developers.vtex.com/docs/guides)
+```
+
+</details>

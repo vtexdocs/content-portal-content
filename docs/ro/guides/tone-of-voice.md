@@ -106,3 +106,31 @@ We want to sound friendly, so we use common contractions.
 | Do ✅ | Don't ❌ |
 | ---- | ---- |
 | You don't have any manually added products. | You do not have any manually added products. |
+
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți exemple echivalente pentru conținutul VTEX în română.
+
+**Publicul este protagonistul**
+
+| Generic ❌ | Cu publicul în centru ✅ |
+| --- | --- |
+| Această funcționalitate permite comercianților să afișeze produsele cele mai relevante pentru clienți și să adauge sau să ascundă produse preselectate din rezultatele căutării, oferind flexibilitate în personalizarea experienței de cumpărare. | Această funcționalitate vă permite să afișați produsele cele mai relevante pentru client și să adăugați sau să ascundeți produse preselectate din rezultatele căutării. |
+
+**Mesaje concise**
+
+| Zgomot inutil ❌ | La obiect ✅ |
+| --- | --- |
+| A apărut o problemă la salvarea acestui rând. Încercați din nou pentru a vă asigura că modificările sunt salvate cu succes. | A apărut o eroare la salvarea acestui rând. Încercați din nou. |
+
+**Ton potrivit (nici prea informal, nici prea formal)**
+
+| Prea informal ❌ | Potrivit ✅ | Prea formal ❌ |
+| --- | --- | --- |
+| Ca să schimbi EAN-ul SKU-ului, șterge mai întâi toate EAN-urile legate de el. | Ștergeți valorile EAN asociate SKU-ului înainte de a actualiza EAN-ul curent. | Pentru modificarea EAN-ului existent al SKU-ului, este necesară eliminarea prealabilă a tuturor valorilor EAN asociate acestuia. |
+
+**Fără „vă rugăm” în instrucțiuni**
+
+| Corect ✅ | Incorect ❌ |
+| --- | --- |
+| În Admin VTEX, accesați **Comenzi** > **Toate comenzile** | În Admin VTEX, vă rugăm accesați **Comenzi** > **Toate comenzile** |

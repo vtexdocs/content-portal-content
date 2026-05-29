@@ -44,6 +44,38 @@ You can also use a writing resource throughout the text to improve readability, 
 | ---- | ---- |
 | <ul><li>If a customer has questions about their order, **they** can contact our support team for assistance.</li><li>When customers want to return an order, **they are** able to do that through physical stores.</li><li>This feature allows sales associates to showcase products in real time, allowing **them** to replicate an in-person experience with the customer.</li></ul> | <ul><li>If a customer has questions about their order, **he/she** can contact our support team for assistance.</li><li>When customers want to return an order, **he or she is** able to do that through physical stores.</li><li>This feature allows sales associates to showcase products in real time, allowing **he or she** to replicate an in-person experience with the customer.</li></ul> |
 
+## Limba neutră (română)
+
+Româna marchează genul gramatical, spre deosebire de engleză. Nu există echivalentul pronumelui singular *they*; folosiți strategii care evită presupuneri de gen sau reformulați propoziția.
+
+**Folosiți pluralul sau formule neutre**
+
+| Corect ✅ | Incorect ❌ |
+| ---- | ---- |
+| <ul><li>Dacă un client are întrebări despre comandă, **poate** contacta echipa de suport.</li><li>Când **clienții** doresc să returneze o comandă, **pot** face acest lucru prin magazinele fizice.</li><li>Această funcționalitate permite asociaților de vânzări să prezinte produse în timp real, replicând experiența din magazin.</li></ul> | <ul><li>Dacă un client are întrebări despre comandă, **el/ea** poate contacta echipa de suport.</li><li>Când clientul dorește să returneze o comandă, **el trebuie** să...</li><li>Funcționalitatea îi permite **asociatului** să...</li></ul> |
+
+**Folosiți „dumneavoastră” sau „utilizatorul” în documentație**
+
+| Corect ✅ | Incorect ❌ |
+| ---- | ---- |
+| <ul><li>Urmați pașii de mai jos pentru a configura livrarea.</li><li>Utilizatorul poate exporta raportul din pagina **Comenzi**.</li></ul> | <ul><li>Urmați pașii de mai jos pentru a vă configura livrarea, domnule.</li><li>Exportați raportul dacă sunteți interesat.</li></ul> |
+
+**Nu presupuneți genul componentei UI când substantivul nu apare în propoziție**
+
+| Corect ✅ | Incorect ❌ |
+| ---- | ---- |
+| Aplicabil la... | Va fi aplicată la... |
+
+**Numele în exemple**
+
+| Corect ✅ | Incorect ❌ |
+| ---- | ---- |
+| <ul><li>Maria</li><li>Andrei</li><li>Elena</li><li>Jamal</li></ul> | <ul><li>James</li><li>Jessica</li></ul> |
+
+Pentru adrese de e-mail în exemple, adaptați ortografia la publicul român: `maria.popescu@email.com`, `andrei.ionescu@email.com`.
+
+Pronumele neologisme precum *elu/delu* **nu se folosesc în conținutul formal VTEX**, din cauza lipsei de standardizare în norma curentă.
+
 When referring to example user profiles, use names that reflect a broad range of identities.
 
 | Do ✅ | Don't ❌ |

@@ -96,11 +96,11 @@ La abrevierea zilelor săptămânii, folosiți primele trei litere, urmate de pu
 | :--- | :--- |
 | 30.05.25 | 05.30.25 |
 
-Folosiți preferabil formatul de 24 de ore. Folosiți unitatea orară (h) între oră și minute, fără spații. Minutele zero nu sunt necesare.
+Folosiți preferabil formatul de 24 de ore, conform standardului localei `ro-RO` ([CLDR](https://www.unicode.org/cldr/charts/47/summary/ro.html)): ore și minute separate prin două puncte (`HH:mm`), cu minutele zero incluse când este necesar pentru claritate.
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>14h30</li><li>16h</li></ul> | <ul><li>14:30</li><li>16H</li></ul> |
+| <ul><li>14:30</li><li>16:00</li><li>09:00</li></ul> | <ul><li>14h30</li><li>16H</li><li>2:30 PM</li></ul> |
 
 Pentru formatul de 12 ore, folosiți abrevierea cu litere mici și puncte. Adăugați un spațiu între oră și abreviere. Minutele zero nu sunt necesare.
 
@@ -221,7 +221,7 @@ Pentru a identifica localități (limbă + țară), folosiți o subtag de limbă
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>en-US</li><li>en-GB</li></ul> | <ul><li>En-US</li><li>EN</li></ul> |
+| <ul><li>ro-RO</li><li>en-US</li><li>en-GB</li></ul> | <ul><li>ro_RO</li><li>En-US</li><li>RO</li></ul> |
 
 ### Documentație
 
@@ -235,7 +235,7 @@ Când un eveniment sau o acțiune are loc la o anumită oră locală, includeți
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>Evenimentul va avea loc în București la 10h30 (UTC+2)</li><li>Ultima actualizare: 6h42 (UTC+2)</li></ul> | <ul><li>Evenimentul va avea loc la 15h (GMT+2).</li><li>Ultima actualizare: 6h42 (UTC+2)</li></ul> |
+| <ul><li>Evenimentul va avea loc în București la 10:30 (UTC+2)</li><li>Ultima actualizare: 06:42 (UTC+2)</li></ul> | <ul><li>Evenimentul va avea loc la 15h (GMT+2).</li><li>Ultima actualizare: 6h42 (UTC+2)</li></ul> |
 
 #### Monede
 

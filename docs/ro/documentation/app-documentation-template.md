@@ -220,6 +220,69 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 </details>
 
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți un exemplu de documentație de aplicație adaptat pentru publicul român. Butoanele din Admin folosesc infinitivul (ex.: **Instalare**, **Salvare**), conform [Etichete de acțiune](https://contentguide.vtex.com/ro/docs/interface-copy/action-labels).
+
+<details>
+<summary><b>Exemplu de documentație de aplicație (română)</b></summary>
+
+```md
+# Wishlist
+
+Aplicația **Wishlist** permite clienților să salveze produse preferate pentru a le cumpăra ulterior, astfel încât să puteți crește retenția și valoarea medie a comenzii.
+
+![previzualizare-wishlist](/)
+
+## Înainte de a începe
+
+Aveți nevoie de:
+
+- Cont VTEX cu permisiuni de instalare a aplicațiilor
+- **VTEX IO CLI** instalat local
+- Tema Store Framework actualizată la versiunea **6.x** sau mai recentă
+
+Dacă nu aveți CLI instalat, consultați [Instalarea VTEX IO CLI](https://developers.vtex.com/docs/guides/vtex-io-documentation-vtex-io-cli-install).
+
+## Instalare
+
+1. [Instalați](https://developers.vtex.com/docs/guides/vtex-io-documentation-installing-an-app) aplicația executând `vtex install vtex.wish-list` în terminal.
+2. Deschideți directorul temei în editorul de cod.
+3. Adăugați aplicația sub câmpul `peerDependencies` din `manifest.json`:
+
+      "peerDependencies": {
+          "vtex.wish-list": "1.x"
+      }
+
+4. Declarați blocul în șablonul dorit:
+
+      "store.product": {
+          "blocks": [
+              "wishlist-button"
+          ]
+      },
+
+## Configurare
+
+După instalare, configurați aplicația în Admin VTEX:
+
+1. Accesați **Aplicații > Aplicațiile mele > Wishlist**.
+2. Activați opțiunea **Afișare pe pagina de produs**.
+3. Definiți textul butonului: **Adăugare la listă** (infinitiv, nu imperativ).
+4. Faceți clic pe **Salvare**.
+
+## Personalizare (opțional)
+
+Pentru a personaliza stilul componentei, consultați [Using CSS Handles for store customization](https://developers.vtex.com/docs/guides/vtex-io-documentation-using-css-handles-for-store-customization).
+
+| CSS Handles |
+| ------------------ |
+| wishlistButton |
+| wishlistIcon |
+```
+
+</details>
+
 ## Examples of app documentation articles
 
 - [Breadcrumb](https://developers.vtex.com/docs/apps/vtex.breadcrumb)

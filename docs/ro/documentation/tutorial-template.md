@@ -139,6 +139,53 @@ Here's an overview of the parts:
 
 </details>
 
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți un exemplu de tutorial adaptat pentru publicul român. Titlurile folosesc infinitivul; pașii folosesc imperativul, conform [Verbe](https://contentguide.vtex.com/ro/docs/grammar/verbs).
+
+<details>
+<summary><b>Exemplu de tutorial (română)</b></summary>
+
+```md
+# Gestionarea utilizatorilor în organizații B2B
+
+Acest tutorial vă învață să creați, editați și dezactivați utilizatori B2B în Admin VTEX. La final, veți putea gestiona accesul echipei pentru un seller din România.
+
+Iată o privire de ansamblu asupra părților:
+
+- [Pasul 1. Creare utilizator B2B](https://developers.vtex.com/docs/add-the-step-slug-here)
+- [Pasul 2. Atribuire rol și permisiuni](https://developers.vtex.com/docs/add-the-step-slug-here)
+- [Pasul 3. Verificare acces](https://developers.vtex.com/docs/add-the-step-slug-here)
+
+## Înainte de a începe
+
+- Cont VTEX B2B activ
+- Permisiune **VTEX B2B Admin**
+- Adrese de e-mail valide pentru utilizatori (ex.: `maria.popescu@email.com`)
+
+## Pasul 1. Creare utilizator B2B
+
+1. În Admin VTEX, accesați **Marketplace > Sellers > Organizații**.
+2. Selectați organizația dorită.
+3. Faceți clic pe **Adăugare utilizator**.
+4. Completați câmpurile **Nume**, **E-mail** și **Rol**.
+5. Faceți clic pe **Salvare**.
+
+## Pasul 2. Atribuire rol și permisiuni
+
+1. Deschideți profilul utilizatorului creat.
+2. Selectați rolul **Buyer** sau **Admin organizație**.
+3. Confirmați modificările.
+
+## Pasul 3. Verificare acces
+
+1. Solicitați utilizatorului să se autentifice.
+2. Verificați că organizația și catalogul B2B se încarcă corect.
+3. Confirmați că data ultimei autentificări apare ca **acum 2 minute** în listă.
+```
+
+</details>
+
 ## Tutorial examples
 
 - [Getting started: Storefront apps](https://www.google.com/url?q=https://developers.vtex.com/docs/guides/vtex-io-documentation-1-developing-storefront-apps-using-react-and-vtex-io&sa=D&source=docs&ust=1736199224966224&usg=AOvVaw0BptDzlbA0vq4Xi6GkqX1E)

@@ -24,17 +24,17 @@ Păstrați textul cât mai scurt posibil, dar suficient de descriptiv.
 | :--- | :--- |
 | Adăugare produs | Adăugare produs nou în catalog |
 
-Folosiți un verb la infinitiv sau imperativ, urmat de un obiect.
+Folosiți verbul la infinitiv, urmat de un obiect. În butoane, folosiți întotdeauna infinitivul, nu imperativul.
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>Creare produs</li><li>Vizitare magazin</li></ul> | <ul><li>Produs nou</li><li>Magazin</li></ul> |
+| <ul><li>Creare produs</li><li>Vizitare magazin</li></ul> | <ul><li>Produs nou</li><li>Magazin</li><li>Creați produs</li><li>Vizitați magazinul</li></ul> |
 
 Folosiți aceleași etichete pentru acțiuni care se repetă. Etichetele cele mai frecvente sunt listate în glosar.
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>Adăugare produs</li><li>Vizualizare detalii</li><li>Editează</li><li>Redenumire</li></ul> | <ul><li>Inserare produs</li><li>Vizualizare detalii</li><li>Modificare</li><li>Schimbare nume</li></ul> |
+| <ul><li>Adăugare produs</li><li>Vizualizare detalii</li><li>Editare</li><li>Redenumire</li></ul> | <ul><li>Inserare produs</li><li>Vizualizare detalii</li><li>Editează</li><li>Schimbare nume</li></ul> |
 
 Folosiți majuscule doar la prima literă a propoziției și la nume proprii.
 
@@ -60,7 +60,7 @@ Dacă contextul clarifică deja obiectul acțiunii, nu îl repetați în etichet
 
 | Corect ✅ | Incorect ❌ |
 | :--- | :--- |
-| <ul><li>Etichetă de conținut: Produs</li><li>Etichetă de acțiune: Editează</li></ul><ul><li>Etichetă de conținut: Comandă</li><li>Etichetă de acțiune: Facturare</li></ul> | <ul><li>Etichetă de conținut: Produs</li><li>Etichetă de acțiune: Editare produs</li></ul><ul><li>Etichetă de conținut: Comandă</li><li>Etichetă de acțiune: Facturare comandă</li></ul> |
+| <ul><li>Etichetă de conținut: Produs</li><li>Etichetă de acțiune: Editare</li></ul><ul><li>Etichetă de conținut: Comandă</li><li>Etichetă de acțiune: Facturare</li></ul> | <ul><li>Etichetă de conținut: Produs</li><li>Etichetă de acțiune: Editare produs</li><li>Etichetă de acțiune: Editează</li></ul><ul><li>Etichetă de conținut: Comandă</li><li>Etichetă de acțiune: Facturare comandă</li></ul> |
 
 Când un link apare în mijlocul unui paragraf, nu este necesar să începeți cu majusculă sau cu verb, cu excepția cazului în care este titlul exact al unui articol.
 

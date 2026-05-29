@@ -210,3 +210,41 @@ Naming examples
 ### Seek assistance if needed
 
 If doubts persist after following the process, consult with the Product Marketing team for additional guidance and final decision-making support.
+
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți orientări de traducere și denumire pentru piața română.
+
+**Produse:** păstrați denumirea în engleză.
+
+* Exemple: Sales App, Live Shopping, FastStore.
+
+**Module Admin VTEX:** traduceți, ca regulă generală.
+
+* Exemple: Overview / Prezentare generală, Shipping / Livrare, Orders / Comenzi.
+
+**Permisiuni de profil:** nu traduceți.
+
+* Exemple: Owner (Admin Super), VTEX IO Admin.
+
+**Funcționalități:** traduceți.
+
+* Exemplu: Operational capacity / Capacitate operațională.
+
+**Aplicații:** unele se traduc, altele nu.
+
+* Exemple: Wishlist / Listă de dorințe, Customer Credit.
+
+**Ce evitați în română**
+
+| Corect ✅ | Incorect ❌ |
+| --- | --- |
+| <ul><li>Sellers disponibili</li><li>Gestionare inventar</li><li>Capacitate operațională</li></ul> | <ul><li>Găsire sellers</li><li>Gestionare inventarului magazinului</li><li>CapOperational</li></ul> |
+
+**Exemple de nume**
+
+* **Produse VTEX:** VTEX Commerce Platform, VTEX Live Shopping, VTEX Tracking.
+* **Module VTEX:** VTEX Marketplace, VTEX Intelligent Search, VTEX OMS (sistem de gestionare a comenzilor).
+* **Funcționalități:** VTEX Promotions, VTEX Catalog, VTEX Master Data.
+
+**Diacritice:** folosiți diacriticele corecte în denumirile traduse. Consultați [Majuscule](https://contentguide.vtex.com/ro/docs/grammar/capitalization) pentru reguli detaliate.

@@ -96,6 +96,46 @@ While both [tutorial](https://contentguide.vtex.com/docs/documentation/tutorial-
 
 </details>
 
+## Exemple pentru română
+
+Secțiunea de mai sus este redactată în engleză. Mai jos găsiți un exemplu de how-to guide adaptat pentru publicul român, cu titluri la infinitiv și instrucțiuni la imperativ, conform [Verbe](https://contentguide.vtex.com/ro/docs/grammar/verbs).
+
+<details>
+<summary><b>Exemplu de how-to guide (română)</b></summary>
+
+```md
+# Configurarea politicii de livrare
+
+Acest ghid vă arată cum să configurați o politică de livrare pentru comenzile din România, inclusiv taxe exprimate în **RON** și termene de livrare în zile lucrătoare.
+
+## Înainte de a începe
+
+- Acces de **Owner** sau permisiuni de editare în modulul **Livrare**
+- Coduri poștale românești valide (format din 6 cifre, ex.: **010101**)
+- Familiaritate cu [Formate de date](https://contentguide.vtex.com/ro/docs/interface-copy/data-formats)
+
+## Instrucțiuni
+
+### Pasul 1 - Accesarea modulului Livrare
+
+1. În Admin VTEX, accesați **Livrare > Politici de livrare**.
+2. Faceți clic pe **Creare**.
+
+### Pasul 2 - Definirea zonei de livrare
+
+1. Introduceți numele politicii: **Livrare națională**.
+2. Adăugați codurile poștale sau selectați județele incluse.
+3. Definiți taxa de livrare: **19,99 RON** pentru comenzi sub **200 RON**; **0,00 RON** pentru comenzi de **200 RON** sau mai mult.
+
+### Pasul 3 - Publicarea politicii
+
+1. Revizuiți setările.
+2. Faceți clic pe **Salvare**.
+3. Confirmați că politica apare ca **Activă** în listă, cu data de actualizare **28.05.2026**.
+```
+
+</details>
+
 ## Examples of how-to guides
 
 - [Overriding native component's props](https://developers.vtex.com/docs/guides/faststore/overrides-component-props)
