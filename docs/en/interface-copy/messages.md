@@ -52,7 +52,7 @@ Use common contractions.
 
 | Do ✅ | Don't ❌ |
 | :---- | :---- |
-| Couldn't save provider due to a technical issue | Provider could not be saved because of a technical issue |
+| Couldn't save provider due to a technical issue | Could not save provider due to a technical issue |
 
 Use punctuation only when a larger message is extremely necessary.
 
