@@ -18,7 +18,7 @@ O **VTEX Localization Agent** é um agente de IA especializado em internacionali
 
 ## O que ele pode te ajudar a fazer
 
-- **Traduzir conteúdo** entre os idiomas suportados pela VTEX (inglês, português e espanhol).
+- **Traduzir conteúdo** com domínio total em inglês, português e espanhol, os idiomas principais suportados pela VTEX, além de também atuar nos demais idiomas disponíveis no Admin e no Storefront/Checkout, aplicando regras gerais de tradução.
 - **Consultar termos do glossário** para manter a terminologia consistente entre os conteúdos.
 - **Aplicar o VTEX Content Style Guide** e outras normas internas de escrita a um texto.
 - **Seguir as diretrizes de tradução da VTEX** ao adaptar um conteúdo para um novo idioma.
