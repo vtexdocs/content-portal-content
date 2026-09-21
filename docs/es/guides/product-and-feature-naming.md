@@ -88,7 +88,7 @@ Los nombres deben ser:
 *   **Aplicaciones:** se traducen según el caso.
     *   Ejemplos: Wishlist/Lista de deseos, Customer Credit.
 
-**Capitalización:** las reglas de capitalización varían según el idioma. Para más detalles, consulta las [guías de estilo](https://language.vtex.com/content/style_guides.html) o ponte en contacto con el equipo de Localization.
+**Capitalización:** las reglas de capitalización varían según el idioma. Para más detalles, consulta la [doc de Capitalización](https://contentguide.vtex.com/es/docs/grammar/capitalization) o ponte en contacto con el equipo de Localization.
 
 **Límite de caracteres:**
 

@@ -89,7 +89,7 @@ Specific guidelines
   **Apps:** Some are translated, some are not.
 * Examples: Wishlist / Lista de desejos, Customer Credit.
 
-**Capitalization:** Capitalization rules differ by language. Use title case for titles in English, and sentence case in Portuguese and Spanish. For more details, see our [style guides](https://language.vtex.com/content/style_guides.html) or contact the Localization team.
+**Capitalization:** Capitalization rules differ by language. Use title case for titles in English, and sentence case in Portuguese and Spanish. For more details, see our [Capitalization documentation](https://contentguide.vtex.com/docs/grammar/capitalization) or contact the Localization team.
 
 **Character Limit:**
 

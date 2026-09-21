@@ -88,7 +88,7 @@ Ao definir um nome, ele deve ser:
 *   **Aplicações:** algumas são traduzidas, outras não.
     *   Exemplos: Wishlist/Lista de desejos, Customer Credit.
 
-**Capitalização:** as regras de capitalização variam de acordo com o idioma. Para mais detalhes, consulte os nossos [guias de estilo](https://language.vtex.com/content/style_guides.html) ou entre em contato com a equipe de localização.
+**Capitalização:** as regras de capitalização variam de acordo com o idioma. Para mais detalhes, consulte nossa [documentação sobre Capitlização](https://contentguide.vtex.com/pt/docs/grammar/capitalization) ou entre em contato com a equipe de localização.
 
 **Limite de caracteres:**
 
