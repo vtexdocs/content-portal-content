@@ -38,7 +38,7 @@ The agent also exposes an MCP (Model Context Protocol) server, so agentic IDEs â
 {
   "mcpServers": {
     "vtex-localization-agent": {
-      "url": "https://vtex-localization-agent.vtex.systems/mcp/",
+      "url": "https://vtex-localization-agent-staging.vtex.systems/mcp/",
       "type": "http"
     }
   }

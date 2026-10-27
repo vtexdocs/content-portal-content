@@ -38,7 +38,7 @@ O agente também expõe um servidor MCP (Model Context Protocol), permitindo que
 {
   "mcpServers": {
     "vtex-localization-agent": {
-      "url": "https://vtex-localization-agent.vtex.systems/mcp/",
+      "url": "https://vtex-localization-agent-staging.vtex.systems/mcp/",
       "type": "http"
     }
   }
